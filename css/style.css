@@ -180,3 +180,16 @@ li a:hover {
 .links a {
     font: var(--text-preset-2-bold);
 }
+
+@media only screen and (min-width: 768px) {
+    
+    li {
+        width: 304px;
+    }
+
+    .container {
+        width: 384px;
+        height: 611px;
+        padding: 40px;
+    }
+}
